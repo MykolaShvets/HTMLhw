@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+div{
+    padding: 10px;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.sidebar{
+    align-self: flex-start;
+    height: auto;
+    background: #469d9d;
+    flex-grow: 1;
+}
+
+.sidebar_item{
+    height: 60px;
+    background: #344f50;
+    margin-top: 5px;
+}
+
+.top{
+    margin-bottom: 50px;
+}
+
+.body{
+    flex-grow: 5;
+    height: 200vh;
+    background: #3b8186;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.header{
+    flex-grow: .5;
+    display: flex;
+    justify-content: space-between;
+    background: #5d5f5f;
+}
+.header_item {
+    background: #d5d7d7;
+    width: 200px;
+}
+
+
+.content_first{
+    flex-grow: 3;
+    width: 100%;
+    background: #344f50;
+}
+
+.content_first-item{
+    background: #5d5f5f;
+    width: 100%;
+    height: 100%;
+}
+
+.content_second{
+    flex-grow: 4;
+    background: #344f50;
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.content_second-item{
+    width: 45%;
+    flex-grow: 1;
+    background: #5d5f5f;
+}
+
+.content_third{
+    flex-grow: 5;
+    background: #344f50;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.content_third-inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 9;
+    row-gap: 5px;
+}
+
+.content_third-item{
+    width: 49%;
+    background: #2a2424;
+}
+
+.content_third-bottom{
+    background: #2a2424;
+    flex-grow: 1;
+    align-self: center;
+    width: 200px;
+}
+
+
+.content_fourth{
+    flex-grow: 3;
+    background: #4f4444;
+    display: flex;
+    align-items: stretch;
+    column-gap: 5px;
+}
+
+.lside{
+    padding: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.lside_item{
+    background: #2a2424;
+    flex-grow: 1;
+}
+
+.rside{
+    flex-grow: 1;
+    background: #2a2424;
+}
+
+
+.content_fifth{
+    flex-grow: 1;
+    background: #344f50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
+.long_item{
+    align-self: stretch;
+    background: #2a2424;
+    flex-grow: 1;
+
+}
+.short_item{
+    width: 300px;
+    background: #2a2424;
+    flex-grow: 1;
+}
