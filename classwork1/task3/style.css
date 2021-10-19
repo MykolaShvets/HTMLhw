@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Arial Black", serif;
+    font-weight: 700;
+    font-size: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+div{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px
+}
+
+.top{
+    flex-grow: 3;
+    display: flex;
+    column-gap: 2px;
+}
+
+.home, .about{
+    flex-grow: 1;
+    background: blueviolet;
+}
+
+.kabobs{
+    flex-grow: 2;
+    background: cadetblue;
+}
+
+.bottom{
+    flex-grow: 1;
+    display: flex;
+    column-gap: 2px;
+}
+
+.shishkabobs, .bbq_kabobs, .summer_kabobs{
+    flex-grow: 1;
+    background: darkcyan ;
+}

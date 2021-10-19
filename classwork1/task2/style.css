@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Arial Black", serif;
+    font-weight: 700;
+    font-size: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+div{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.header{
+    height: 100px;
+    background: blue;
+}
+.content{
+    height: 85vh;
+    display: flex;
+    align-items: stretch;
+
+}
+
+.l_side{
+    flex-grow: 4;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2px;
+    row-gap: 2px;
+}
+
+.b, .c, .d, .e, .f, .g{
+    flex-grow: 3;
+    flex-basis: 300px;
+    background: blueviolet;
+
+}
+
+.r_side{
+    flex-grow: 1;
+    background: indigo;
+}
+
