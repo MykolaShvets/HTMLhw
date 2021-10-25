@@ -1,0 +1,36 @@
+@media screen and (max-width: 1060px ){
+  .text-row{
+      row-gap: 15px;
+
+  }
+}
+
+@media screen and (max-width: 950px ){
+    .section-one__content,
+    .section-two {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    .menu{
+        display: none;
+    }
+
+    .menu__btn{
+        display: block;
+    }
+
+    .footer__inner{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 950px ){
+    .title{
+        row-gap: 15px;
+    }
+}

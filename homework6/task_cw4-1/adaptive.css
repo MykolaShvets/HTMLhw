@@ -1,0 +1,15 @@
+@media screen and (max-width: 1000px ){
+  .header__bottom{
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 800px ){
+    .main{
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+}
