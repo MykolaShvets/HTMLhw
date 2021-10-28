@@ -61,32 +61,39 @@ a{
   background: url("../image/bg.png") no-repeat center/cover;
   padding-top: 50px;
 }
-.menu__btn{
+.burger{
   display: none;
+
 }
-.menu__btn{
-  display: none;
-  width: 30px;
+.navbar-toggler{
+  border: none;
+  padding: 0;
 }
-.menu__btn div{
+.navbar-toggler span{
+  display: block;
   height: 3px;
+  width: 30px;
   background: #FF7400;
   border-radius: 50px;
   margin: 4px 0;
 }
-.header__menu.active{
-  display: flex;
+
+.navbar-collapse.collapse.show{
   position: absolute;
   top: 90px;
   left: 0;
-  flex-direction: column;
   background: #000;
   row-gap: 15px;
   height: 93vh;
   width: 100%;
   padding-top: 15px;
-  align-items: center;
 }
+
+.collapsing {
+  transition: none;
+  display: none;
+}
+
 .header__navbar{
   font-family: Open Sans;
   font-style: normal;

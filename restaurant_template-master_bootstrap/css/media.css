@@ -23,9 +23,10 @@
         border: none;
     }
 
-    .menu__btn{
+    .burger{
         display: block;
     }
+
     .header__navbar>img{
         width: 45px;
     }
