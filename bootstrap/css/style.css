@@ -1,0 +1,107 @@
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #2E75FF;
+    border: 2px solid #EAEDF5;
+
+}
+
+.nav-link.dropdown-toggle{
+    padding-right: 28px!important;
+}
+
+.dropdown-toggle{
+    position: relative;
+}
+
+.dropdown-toggle::after{
+    content: url("../image/arrow.png");
+    border: none;
+    position: absolute;
+    top: 6px;
+}
+
+.section-one__right img,
+.section-two__left img,
+.section-three__left img,
+.section-four__right img{
+    width: 100%;
+}
+
+.section-one p{
+    font-weight: bold;
+}
+h1{
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+h1::after,
+.section-one__left-txt::after{
+    content:'';
+    position: absolute;
+    width: 227px;
+    height: 7px;
+    background:  #EDEFF3;
+    bottom: 0;
+    left: 0;
+}
+
+.section-one__left-txt{
+    margin-top: 55px;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.section-two__right{
+    margin-top: 60px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    color: #1652AC;
+}
+
+.section-two__txt span{
+    font-weight: bold;
+}
+
+.section-three__txt{
+    max-width: 496px;
+}
+
+.section-three__right{
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);;
+}
+.section-three__left{
+    padding: 0;
+}
+.section-three__right .title{
+    margin-top: 40px;
+}
+
+.section-three__right h2,
+.section-three__right p{
+    color: #FBFDFF;
+}
+
+.section-four{
+    margin-top: 90px;
+}
+
+.section-four__right{
+    padding: 0;
+}
